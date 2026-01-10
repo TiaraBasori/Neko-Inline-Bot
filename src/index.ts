@@ -11,7 +11,7 @@ const bot = new Bot<MyContext>(env.BOT_TOKEN, { botInfo: env.BOT_INFO });
 bot.use(log);
 bot.use(help);
 
-bot.use(forward);
+// bot.use(forward);
 bot.use(inlineQuery);
 
 export default {
