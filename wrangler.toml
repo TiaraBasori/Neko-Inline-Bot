@@ -12,14 +12,14 @@ traces.enabled = true
 
 [[d1_databases]]
 binding = "DB"
-database_id = "038cca91-b6d2-468c-91e0-a7e859cb30ee"
-database_name = "inline"
+database_id = "02a7b5de-cc73-48bc-8803-24d245bff001"
+database_name = "inlinedb"
 
 [vars.BOT_INFO]
-id = 7414779700
+id = 7969353410
 is_bot = true
-first_name = "流典忆庭"
-username = "yet_another_inline_bot"
+first_name = "Neko Inline Bot"
+username = "NekoInlineBot"
 can_join_groups = true
 can_read_all_group_messages = false
 supports_inline_queries = true
