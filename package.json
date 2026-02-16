@@ -19,7 +19,7 @@
 		"@grammyjs/types": "^3.23.0",
 		"@types/node": "^25.0.5",
 		"dotenv": "^17.2.3",
-		"drizzle-kit": "^0.31.8",
+		"drizzle-kit": "^0.18.1",
 		"wrangler": "^4.58.0"
 	}
 }

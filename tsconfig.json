@@ -26,8 +26,5 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
 
-    "types": [
-      "./worker-configuration.d.ts"
-    ]
   }
 }

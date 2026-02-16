@@ -3,10 +3,10 @@ import { Composer, InlineKeyboard } from "grammy";
 export const help = new Composer<MyContext>();
 
 const inlineKeyboard = new InlineKeyboard()
-  .switchInline("选择一个 Chat 开始")
+  .switchInline("选择一个聊天开始")
   .switchInlineCurrent("让我们开始")
   .row()
-  .url("仓库地址", "https://github.com/jiang-zhexin/yaibot");
+  .url("仓库地址", "https://github.com/TiaraBasori/Neko-Inline-Bot");
 
 help.command(["start", "help"], async (c) => {
   await c.reply(
@@ -23,7 +23,7 @@ help.command(["start", "help"], async (c) => {
 点击下方按钮
 
 *如何搜索 inline 消息？*
-使用以下格式搜索: \`@yet_another_inline_bot \`\\[ \\< gif \\| photo \\| sticker \\> \\< KEYWORD \\> by \\< USERNAME \\> \\]`,
+使用以下格式搜索: \`@NekoInlineBot \`\\< \\[gif\\|photo\\|sticker\\] \\[KEYWORD]\\ by \\[USERNAME\\] \\>`,
     { parse_mode: "MarkdownV2", reply_markup: inlineKeyboard },
   );
 });
