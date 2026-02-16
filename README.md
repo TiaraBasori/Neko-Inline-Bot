@@ -1,3 +1,3 @@
-# Yet Another Inline Bot
+# Neko Inline Bot
 
-快速体验 [@yet_another_inline_bot](https://t.me/yet_another_inline_bot)
+快速体验 [@NekoInlineBot](https://t.me/NekoInlineBot)
