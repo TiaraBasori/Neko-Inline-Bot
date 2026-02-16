@@ -4,7 +4,7 @@ main = "src/index.ts"
 compatibility_date = "2025-11-17"
 minify = true
 upload_source_maps = true
-workers_dev = false
+workers_dev = true
 
 [observability]
 enabled = true

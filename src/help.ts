@@ -23,7 +23,7 @@ help.command(["start", "help"], async (c) => {
 点击下方按钮
 
 *如何搜索 inline 消息？*
-使用以下格式搜索: \`@NekoInlineBot \`\\< \\[gif\\|photo\\|sticker\\] \\[KEYWORD]\\ by \\[USERNAME\\] \\>`,
+'@NekoInlineBot' \< \[gif\|photo\|sticker\] \[KEYWORD\] by \[USERNAME\] \>`,
     { parse_mode: "MarkdownV2", reply_markup: inlineKeyboard },
   );
 });
